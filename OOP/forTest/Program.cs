@@ -6,16 +6,51 @@ using System.Threading.Tasks;
 
 namespace forTest
 {
-    sealed class Teacher
+    //sealed class Teacher
+    //{
+    //    public void Teach()
+    //    {
+    //        Console.WriteLine("Teacher is teaching !");
+    //    }
+    //}
+
+    //class MathTeacher : Teacher
+    //{
+
+    //}
+
+    internal class Program
     {
-        public void Teach()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Teacher is teaching !");
+            int[] numbers = { 7, 10, 3, 4, 9, 1 };
+
+            int min = numbers[0];
+            int max = numbers[0];
+
+            int profit = max - min;
+
+            for(int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i] > max)
+                {
+                    max = numbers[i];
+                }
+
+                if (numbers[i] < min)
+                {
+                    min = numbers[i];
+                }
+
+                if (Array.IndexOf(numbers, max) > Array.IndexOf(numbers, min) && max - min > profit)
+                {
+                    profit = max - min;
+                }
+
+                
+            }
+
+            Console.WriteLine(profit);
         }
-    }
-
-    class MathTeacher : Teacher
-    {
-
     }
 }

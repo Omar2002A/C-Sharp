@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Advanced C# Challenges/Advanced C# Challenges.csproj" Id="a2aa5724-1403-48e0-87a3-0cbf3616c882" />
   <Project Path="Task(Loops, String, Array)/Task(Loops, String, Array).csproj" Id="03e5a067-1ba3-4fb1-8ed9-3a17ecbe820c" />
   <Project Path="Task(Methods,List,LINQ,LinkedList)/Task(Methods,List,LINQ,LinkedList).csproj" Id="440bfd32-9fff-46b3-ac16-4e9df924945b" />
   <Project Path="Task1/Task1.csproj" Id="38fe2743-44d0-45fe-84c9-5cf6a676ac06" />
