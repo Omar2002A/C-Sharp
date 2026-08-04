@@ -2,5 +2,6 @@
   <Project Path="Car/Car.csproj" Id="79842aed-3a59-445a-9459-06679d16c639" />
   <Project Path="forTest/forTest.csproj" Id="c659621b-9d6c-4a00-acd7-36286e13d844" />
   <Project Path="OOP Principles/OOP Principles.csproj" Id="91aef4da-2402-44b2-a1ab-8ed2d6a976b1" />
+  <Project Path="OOP(Interface , Exception , try and catch )/OOP(Interface , Exception , try and catch ).csproj" Id="74ee62f8-671f-4815-b6cb-40c630244a98" />
   <Project Path="Person/Person.csproj" Id="0b6f6f5d-c2e1-4311-8728-559418db63d1" />
 </Solution>
